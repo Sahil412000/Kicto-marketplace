@@ -4,9 +4,9 @@ const FilterSection = () => {
   return (
     <div className="h-full w-full text-white  ">
       <h1 className="font-semibold text-2xl mb-5">Marketplace</h1>
-      <div className="h-max w-72 border border-white p-5 rounded-lg">
+      <div className="h-max w-72 border  p-5 rounded-lg bg-secondary_bg">
         <div className="flex w-full justify-between">
-          <div className="border border-white w-24 text-center flex items-center justify-center btn-sm rounded-lg">
+          <div className="border btn btn-secondary btn-sm  text-center flex items-center justify-center rounded-lg">
             Boxes
           </div>
           <div className="btn btn-primary btn-sm   w-24 text-center py-1.5 rounded-lg">

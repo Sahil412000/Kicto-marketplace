@@ -3,7 +3,17 @@
 @tailwind utilities;
 
 .btn-primary{
-    @apply bg-gradient-to-r from-[#FF8C3E] to-[#C51817];
+    @apply bg-[#7b3fe4];
     @apply border-none
+}
+
+.btn-secondary{
+    @apply border border-[#7b3fe4];
+    @apply bg-white text-[#7b3fe4]
+}
+
+.btn-secondary:hover{
+    @apply border border-white;
+    @apply bg-[#7b3fe4] text-white
 }
 
